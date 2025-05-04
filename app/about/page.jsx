@@ -64,12 +64,12 @@ export default function About() {
           <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center">
             <Image src={html} alt="ロゴ" width={150} height={150} priority />
             <span className="text-sm font-medium">HTML</span>
-            <span className="text-sm font-medium">実務2年</span>
+            <span className="text-sm font-medium">実務3年</span>
           </div>
           <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center">
             <Image src={css} alt="ロゴ" width={150} height={150} priority />
             <span className="text-sm font-medium">css</span>
-            <span className="text-sm font-medium">実務2年</span>
+            <span className="text-sm font-medium">実務3年</span>
           </div>
           <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center">
             <Image
@@ -81,7 +81,7 @@ export default function About() {
               className="mb-3 mt-3"
             />
             <span className="text-sm font-medium">JavaScript</span>
-            <span className="text-sm font-medium">実務2年</span>
+            <span className="text-sm font-medium">実務3年</span>
           </div>
           <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center">
             <Image
