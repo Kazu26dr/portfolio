@@ -15,7 +15,7 @@ export default function Home() {
           width={240}
           height={240}
           priority
-          className="mb-8"
+          className="mb-8 animate-fadeIn"
         />
       </section>
 

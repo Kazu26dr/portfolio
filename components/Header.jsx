@@ -8,8 +8,8 @@ export default function Header() {
         <Image src="/headerlogo.svg" alt="logo" width={36} height={36} />
       </Link>
       <nav className="space-x-8">
-        <Link href="/about" className="text-[#2E4F89] font-semibold hover:underline">About</Link>
-        <Link href="/app" className="text-[#2E4F89] font-semibold hover:underline">App</Link>
+        <Link href="/about" className="text-[#2E4F89] font-semibold transition hover:opacity-40">About</Link>
+        <Link href="/app" className="text-[#2E4F89] font-semibold transition hover:opacity-40">App</Link>
       </nav>
     </header>
   );
