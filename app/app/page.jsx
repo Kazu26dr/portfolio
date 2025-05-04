@@ -16,7 +16,11 @@ export default function AppPage() {
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* サンプルカード1 */}
-          <a href="https://ec-app-e2d79.web.app/signin" className="transition duration-700 ease-in-out">
+          <a
+            href="https://ec-app-e2d79.web.app/signin"
+            className="transition duration-700 ease-in-out"
+            target="_blank"
+          >
             <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center transition hover:shadow-lg">
               <Image
                 src={ec}
@@ -35,6 +39,7 @@ export default function AppPage() {
           <a
             href="https://next-blog-pi-drab.vercel.app/"
             className="font-medium"
+            target="_blank"
           >
             <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center transition hover:shadow-lg">
               <Image
@@ -54,6 +59,7 @@ export default function AppPage() {
           <a
             href="https://sprightly-monstera-1df53a.netlify.app/"
             className="font-medium"
+            target="_blank"
           >
             <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center transition hover:shadow-lg">
               <Image
@@ -70,7 +76,11 @@ export default function AppPage() {
               </div>
             </div>
           </a>
-          <a href="https://tipingpractice.netlify.app/" className="font-medium">
+          <a
+            href="https://tipingpractice.netlify.app/"
+            className="font-medium"
+            target="_blank"
+          >
             <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center transition hover:shadow-lg">
               <Image
                 src={tiping}
@@ -87,7 +97,7 @@ export default function AppPage() {
             </div>
           </a>
 
-          <a href="" className="font-medium">
+          <a href="" className="font-medium" target="_blank">
             <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center transition hover:shadow-lg">
               <Image
                 src={shooting}
