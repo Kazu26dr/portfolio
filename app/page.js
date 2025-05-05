@@ -34,7 +34,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <p className="mb-2">
+            <p className="mb-2 text-black">
               フロントエンドエンジニアとして活動しています。
             </p>
             <Link href="/about" className="text-[#2E4F89] hover:underline">
@@ -59,7 +59,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <p className="mb-2">これまで作成したアプリを紹介します。</p>
+            <p className="mb-2 text-black">これまで作成したアプリを紹介します。</p>
             <Link href="/app" className="text-[#2E4F89] hover:underline">
               もっと見る →
             </Link>
