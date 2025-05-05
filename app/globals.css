@@ -42,6 +42,62 @@ span {
   transform:translate(0, -2px);
 }
 
+.sample_btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #2E4F89;
+  border-bottom: 2px;
+}
+
+.sample_btn:hover{
+  color: #2E4F89;
+}
+
+.sample_btn {
+  position: relative;
+}
+
+.sample_btn::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #2E4F89;
+  bottom: -10px;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.5s;
+}
+
+.sample_btn:hover::after {
+  transform: scale(1, 1);
+  transform-origin: left top;
+}
+
+.fuwafuwa {
+  animation: fuwafuwa 3s ease-in-out infinite alternate;
+  display: inline-block;
+  transition: 1.5s ease-in-out;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+ 
+@keyframes fuwafuwa {
+  0% {
+    transform:translate(0, 0) rotate(-7deg);
+  }
+  50% {
+    transform:translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    transform:translate(0, 0) rotate(7deg);
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

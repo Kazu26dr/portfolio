@@ -37,7 +37,7 @@ export default function Home() {
             <p className="mb-2 text-black">
               フロントエンドエンジニアとして活動しています。
             </p>
-            <Link href="/about" className="text-[#2E4F89] hover:underline">
+            <Link href="/about" className="text-[#2E4F89] sample_btn">
               もっと見る →
             </Link>
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
           <div>
             <p className="mb-2 text-black">これまで作成したアプリを紹介します。</p>
-            <Link href="/app" className="text-[#2E4F89] hover:underline">
+            <Link href="/app" className="text-[#2E4F89] sample_btn">
               もっと見る →
             </Link>
           </div>
