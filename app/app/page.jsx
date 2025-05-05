@@ -10,7 +10,7 @@ export default function AppPage() {
     <div className="max-w-5xl mx-auto py-16 px-4">
       <section></section>
       <section>
-        <h1 className="text-3xl font-bold mb-8 text-center">Works / App</h1>
+        <h1 className="text-3xl font-bold mb-8 text-center text-black">Works / App</h1>
         <p className="mb-12 text-center text-gray-600">
           これまで作成したアプリを紹介します。画像をクリックするとアプリを見ることができます。
         </p>
@@ -30,8 +30,8 @@ export default function AppPage() {
                 priority
                 className="mb-8 animate-fadeIn"
               />
-              <div className="font-semibold mb-1 text-lg">ECアプリ</div>
-              <div className="text-gray-500 text-sm mb-4 text-center">
+              <div className="text-black font-semibold mb-1 text-lg">ECアプリ</div>
+              <div className="text-black text-sm mb-4 text-center">
                 アプリの簡単な説明が入ります。
               </div>
             </div>
@@ -50,8 +50,8 @@ export default function AppPage() {
                 priority
                 className="mb-8 animate-fadeIn"
               />
-              <div className="font-semibold mb-1 text-lg">ブログ</div>
-              <div className="text-gray-500 text-sm mb-4 text-center">
+              <div className="text-black font-semibold mb-1 text-lg">ブログ</div>
+              <div className="text-black text-sm mb-4 text-center">
                 アプリの簡単な説明が入ります。
               </div>
             </div>
@@ -70,8 +70,8 @@ export default function AppPage() {
                 priority
                 className="mb-8 animate-fadeIn"
               />
-              <div className="font-semibold mb-1 text-lg">フード</div>
-              <div className="text-gray-500 text-sm mb-4 text-center">
+              <div className="text-black font-semibold mb-1 text-lg">フード</div>
+              <div className="text-black text-sm mb-4 text-center">
                 アプリの簡単な説明が入ります。
               </div>
             </div>
@@ -90,8 +90,8 @@ export default function AppPage() {
                 priority
                 className="mb-8 animate-fadeIn"
               />
-              <div className="font-semibold mb-1 text-lg">タイピング</div>
-              <div className="text-gray-500 text-sm mb-4 text-center">
+              <div className="text-black font-semibold mb-1 text-lg">タイピング</div>
+              <div className="text-black text-sm mb-4 text-center">
                 アプリの簡単な説明が入ります。
               </div>
             </div>
@@ -107,8 +107,8 @@ export default function AppPage() {
                 priority
                 className="mb-8 animate-fadeIn"
               />
-              <div className="font-semibold mb-1 text-lg">シューティング</div>
-              <div className="text-gray-500 text-sm mb-4 text-center">
+              <div className="text-black font-semibold mb-1 text-lg">シューティング</div>
+              <div className="text-black text-sm mb-4 text-center">
                 アプリの簡単な説明が入ります。
               </div>
             </div>
