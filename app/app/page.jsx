@@ -97,7 +97,7 @@ export default function AppPage() {
             </div>
           </a>
 
-          <a href="" className="font-medium" target="_blank">
+          <a href="https://spaceshootinggame.netlify.app/" className="font-medium" target="_blank">
             <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center transition hover:shadow-lg">
               <Image
                 src={shooting}
